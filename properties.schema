@@ -15,7 +15,7 @@
             "_elfh_homeRedirect": {
               "type": "object",
               "required": false,
-              "legend": "Home Redirect",
+              "legend": "e-LfH Home Redirect",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
