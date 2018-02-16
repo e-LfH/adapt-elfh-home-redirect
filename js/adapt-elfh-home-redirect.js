@@ -9,7 +9,7 @@ define(['core/js/adapt'], function(Adapt) {
     var boolRedirectLogo = Adapt.config.get('_elfh_homeRedirect')._redirectLogo;	
     var ScriptTag = document.createElement("script");	
 	
-	var RedirectScript = 'var applyHomeButton = function() {if (document.getElementsByClassName("navigation-home-button").length !== 0) { clearInterval(intervalId);   var button = window.$(".navigation-home-button")[0];  delete button.dataset.event; button.onclick = function(event) { event && event.preventDefault();  window.location = "' + destURL + '";  }; };  if (document.getElementsByClassName("navigation-logo-home-button").length !== 0) { clearInterval(intervalId); var button2 = window.$(".navigation-logo-home-button")[0]; delete button2.dataset.event; button2.onclick = function(event) { event && event.preventDefault(); window.location = "' + destURL + '"; };  }; };var intervalId = setInterval(applyHomeButton, 500);';
+    var RedirectScript = 'var applyHomeButton = function() {if (document.getElementsByClassName("navigation-home-button").length !== 0) { clearInterval(intervalId);   var button = window.$(".navigation-home-button")[0];  delete button.dataset.event; button.onclick = function(event) { event && event.preventDefault();  window.location = "' + destURL + '";  }; };  if (document.getElementsByClassName("navigation-logo-home-button").length !== 0 && boolRedirectLogo == true) { clearInterval(intervalId); var button2 = window.$(".navigation-logo-home-button")[0]; delete button2.dataset.event; button2.onclick = function(event) { event && event.preventDefault(); window.location = "' + destURL + '"; };  }; };var intervalId = setInterval(applyHomeButton, 500);';
 
     ScriptTag.innerHTML = RedirectScript;
     document.head.appendChild(ScriptTag);
