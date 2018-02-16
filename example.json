@@ -1,0 +1,5 @@
+//config.json
+  "_elfh_homeRedirect": {
+      "_isEnabled": true,
+      "_redirectURL": "URL to redirect to"
+  }
