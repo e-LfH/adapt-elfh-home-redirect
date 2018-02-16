@@ -4,7 +4,7 @@
     "framework": "^2.0.0",
     "version": "1.0.0",
     "displayName": "e-LfH Home Redirect",
-    "extension": ""e-LfH Home Redirect",
+    "extension": "e-LfH Home Redirect",
     "description": "Extension that redirects the Home button and Logo to specified URL",
     "main": "/js/adapt-elfh-home-redirect.js",
     "keywords": [
