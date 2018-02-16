@@ -20,9 +20,9 @@
                 "_isEnabled": {
                   "type": "boolean",
                   "default": true,
-                  "title": "Enable Home Redirect",
+                  "title": "Is Enabled",
                   "inputType": "Checkbox",
-                  "help": "Turn on to enable redirection"
+                  "help": "If enabled, the plugin will redirect the home button and logo (if set) to the URL entered below"
                 },
                 "_redirectURL": {
                   "type": "string",
