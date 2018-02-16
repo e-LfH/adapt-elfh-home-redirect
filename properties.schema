@@ -30,7 +30,7 @@
                   "require": true,
                   "title": "Redirection URL",
                   "inputType": "Text",
-				  "validators": ["url"],
+		  "validators": ["url"],
                   "help": "Enter the full URL including http:// prefix"
                 }
               }
