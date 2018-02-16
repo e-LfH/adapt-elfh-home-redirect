@@ -31,6 +31,13 @@
                   "inputType": "Checkbox",
                   "help": "If enabled, the plugin will redirect the logo to the specified URL if Logo as Home Button also set to true"
                 },
+		"_redirectHome": {
+                  "type": "boolean",
+                  "default": false,
+                  "title": "Redirect Home Button",
+                  "inputType": "Checkbox",
+                  "help": "If enabled, the plugin will redirect the home button to the specified URL"
+                },
                 "_redirectURL": {
                   "type": "string",
 				  "default":"http://www.google.co.uk",
