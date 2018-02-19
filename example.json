@@ -1,5 +1,7 @@
 //config.json
-  "_elfh_homeRedirect": {
-      "_isEnabled": true,
-      "_redirectURL": "URL to redirect to"
-  }
+    "_elfh_homeRedirect": {
+    "_redirectURL": "http://www.google.co.uk",
+    "_redirectHome": true,
+    "_redirectLogo": true,
+    "_isEnabled": true
+  },
