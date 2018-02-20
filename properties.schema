@@ -43,9 +43,8 @@
 				  "default":"http://www.google.co.uk",
                   "require": true,
                   "title": "Redirection URL",
-                  "inputType": "Text",
-		  "validators": ["url"],
-                  "help": "Enter the full URL including http:// prefix"
+                  "inputType": "Text",		 
+                  "help": "Enter the URL. This may be a relative path"
                 }
               }
             }
