@@ -1,7 +1,7 @@
 {
     "name": "adapt-elfh-home-redirect",
     "repository": "git://github.com/e-lfh/adapt-home-redirect.git",
-    "framework": "^2.0.0",
+    "framework": "^3.0.0",
     "version": "1.0.1",
     "displayName": "e-LfH Home Redirect",
     "extension": "e-LfH Home Redirect",
