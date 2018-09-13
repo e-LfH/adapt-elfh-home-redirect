@@ -2,7 +2,7 @@
     "name": "adapt-elfh-home-redirect",
     "repository": "git://github.com/e-lfh/adapt-home-redirect.git",
     "framework": "^2.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "e-LfH Home Redirect",
     "extension": "e-LfH Home Redirect",
     "description": "Extension that redirects the Home button and Logo to specified URL",
